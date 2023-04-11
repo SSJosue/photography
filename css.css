@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    text-align: center;
+    margin: 30px;
+    height: 50vh;
+    background: url("3.jpg");
+    background-size: cover;
+}
+.back .logo{
+    color: beige;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.back nav{
+    word-spacing: 200px;
+    margin-top: 70px;
+    color: aliceblue;
+}
+.back nav a{
+    color: beige;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.back2 {
+    width: 80%;
+    margin:150px auto;
+    text-align: center;
+    background-color: brown;
+    
+}
+.back2 h1{
+    font-size: 40px;
+    color: aliceblue;
+    padding: 40px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.parent{
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    gap: 4vmin;
+    padding:0 14px;
+}
+.parent div {
+    height: 250px;
+    flex-grow: 1;
+}
+.parent div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about{
+    display: grid;
+    max-width: 70%;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: wrap;
+    grid-gap: 30px 40px;
+    padding:0 14px;
+    margin:200px auto;
+    padding: 100px;
+    background-color: rgb(102, 100, 100);
+}
+
+.about div .left{
+    overflow: hidden;
+}
+
+.about div img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+.right h1{
+    color: rgb(12, 17, 17);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave Display', cursive;
+        margin-bottom: 20px;
+}
+.right p{
+    color: aliceblue;
+    font-size: 18px;
+}
+footer{
+ height: auto;
+background-color: black;
+color: aliceblue;
+width: 95%;
+margin: 20px auto;
+display: flex;
+padding: 20px;
+flex-wrap: wrap;
+}
+footer div{
+
+margin-left: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+footer div a{
+    margin-left: 10px;
+}
